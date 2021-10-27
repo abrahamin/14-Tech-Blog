@@ -19,7 +19,6 @@
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
                     <a class="nav-link" href="/dashboard">Dashboard</a>
-                    <a class="nav-link" href="/login">Login</a>
                     <a class="nav-link" href="#">Logout</a>
                 </div>
             </div>
@@ -27,12 +26,16 @@
     </nav>
 
     <header class="jumbotron">
-        <h1 class="display-4"><a href="/">Tech Blog Unlimited</a></h1>
+        <h1 class="display-4"><a href="/">Dashboard</a></h1>
     </header>
 
     <main class="vw-100">
         {{{ body }}}
     </main>
+
+    <footer class="vw-100">
+        <a href="/dashboard/new">Create New Post</a>
+    </footer>
 </body>
 
 <script src="/js/logout.js"></script>
